@@ -12,3 +12,4 @@
 </ul>
 
 <p><b>Note:</b> At no point has the assumption been made that the board is a rectangle. This automatically accommodates non-playable cells.</p>
+<p><b>Trivia:</b> Hanabi is Japanese for 'Fireworks'. The algorithm has been named so because it traces a firework-with-8-arms shape at each cell. Should I have called it Octopus? Or Tako?</p>
