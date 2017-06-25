@@ -1,7 +1,7 @@
 ## Hanabi: A Dominant Strategy Bot for an M,N,4-Game with Non-Playable Cells
 Refer to the <a href="https://en.wikipedia.org/wiki/M,n,k-game" target="_blank"> wikipedia page</a> for more information about M,N,4-Games.
 ### Functionality
-<p><big><b>In one line:</b></big></p>
+<big><b>In one line:</b></big>
 <p>Assign a weight to each playable cell on the board and mark the cell with the largest weight.</p>
 <big><b>In more than one line:</b></big>
 <p>The weight depends on (In increasing priority. More weight for attacking than defending in the same tier):</p>
