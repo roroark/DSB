@@ -3,8 +3,8 @@ Refer to the <a href="https://en.wikipedia.org/wiki/M,n,k-game" target="_blank">
 ## Functionality
 <big><b>In one line:</b></big><br>
 Assign a weight to each playable cell on the board and mark the cell with the largest weight.<br><br>
-<big><b>In more than one line:</b></big>
-<p>The weight depends on (In increasing priority. More weight for attacking than defending in the same tier):</p>
+<big><b>In more than one line:</b></big><br>
+The weight depends on (In increasing priority. More weight for attacking than defending in the same tier):
 <ul>
 <li>Can you make a line-of-4 by placing a mark here? How many such lines can you make?</li>
 <li>Are you 'legally connecting' with one of your previous marks? Are you 'obstructing' an effort by your opponent?</li>
