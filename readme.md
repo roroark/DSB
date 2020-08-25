@@ -3,6 +3,9 @@ Refer to the <a href="https://en.wikipedia.org/wiki/M,n,k-game" target="_blank">
 ## Functionality
 <big><b>In one line:</b></big><br>
 Assign a weight to each playable cell on the board and mark the cell with the largest weight.<br><br>
+
+<img width="302" alt="Screenshot 2020-08-25 at 9 42 18 AM" src="https://user-images.githubusercontent.com/18059416/91122210-5eacad80-e6b7-11ea-8690-8c330c4461fa.png">
+
 <big><b>In more than one line:</b></big><br>
 The weight depends on (In increasing priority. More weight for attacking than defending in the same tier):
 <ul>
