@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hanabi</title>
+</head>
+<body>
+    
+    <div id="controls">
+        <h1>Hanabi</h1>
+
+        <i>A greedy M,N,4 AI</i>
+        <br><br>
+        Grid 
+        <select name="grid_name" id="grid_name">
+            <option value="Golem">Golem</option>
+            <option value="9 to 25">9 to 25</option>
+            <option value="Doughnut">Doughnut</option>
+        </select>
+        <br>
+        <input type="checkbox" name="ai_first" id="ai_first" checked> AI Plays First <input type="button" value="Reset" id="reset">
+    </div>
+    
+    <div id="gameboard">
+
+        <be></be>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="grids.js"></script>
+    <script src="hanabi.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+/*
+	T3 Evolution Primary Stylesheet ver 2.0
+	August 2020
+	Ryan Dsouza
+*/
+
+/* Token Boxes */
+.griditem {
+	position: absolute;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	background: #fff;
+	cursor: pointer;
+	line-height: 37px;
+	font-size: 30px;
+	color: #000;
+	text-align: center;
+	box-sizing: border-box;
+	font-family: "Helvetica", "Trebuchet";
+}
+
+#reset {
+	line-height: 20px;
+	height: 20px;
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 20px;
+	height: 20px;
+	margin: 0px;
+	background: #333;
+	color : #fff; 
+	font-family: "Helvetica", "Trebuchet";
+}
+
+#controls {
+	padding: 40px;
+	text-align:center;
+}
+
+#grid_name {
+	width: 150px;
+	box-sizing: border-box;
+}
+
+/* Input Tags */
+input {
+	vertical-align: top;
+}
+
+/* Editor */
+#gameboard {
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
